@@ -1,5 +1,5 @@
 {
-  "homepage": "http://rklar3.github.io/prime-landing-page",
+  "homepage": "http://rklar3.github.io/primevideopage",
   "name": "prime-landing-page",
   "version": "0.1.0",
   "private": true,
@@ -24,5 +24,3 @@
     "gh-pages": "^1.2.0"
   }
 }
-
-
