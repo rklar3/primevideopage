@@ -1,10 +1,9 @@
 
 import React, { Component } from 'react';
 
-//const urlformovie = 'https://api.themoviedb.org/3/search/movie?api_key=88985b422d7e5666e517e6f7f09919dd&query=comedy';
 const urlformovie = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=88985b422d7e5666e517e6f7f09919dd&page=1&limit=2';
 
- 
+
 
 
 class RowOne extends React.Component {

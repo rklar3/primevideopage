@@ -5,7 +5,7 @@ import Carousel from 'nuka-carousel';
 
 const Slider = props => (
     
-  
+    <div className="sliderdiv">
      <Carousel>
           <img src="images/headerimg1.jpg" className="sliderimg"/>
           <img src="images/headerimg2.jpg" className="sliderimg"/>
@@ -13,7 +13,8 @@ const Slider = props => (
           <img src="images/headerimg4.jpg" className="sliderimg"/>
           <img src="images/headerimg5.jpg" className="sliderimg"/>
           <img src="images/headerimg6.jpg" className="sliderimg"/>
-    </Carousel> 
+      </Carousel> 
+      </div>
    
 );
 

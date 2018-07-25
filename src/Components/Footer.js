@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 const Footer = props => (
     
     <div className="sitefooter"> 
-    <a href="#"><img atl="app icon" src="../images/primevideo.svg" className="" width="125" /></a>
+    <a href="#"><img atl="app icon" src="images/primevideo.svg" className="" width="125" /></a>
     <p><a href="#">Terms and Privacy Notice</a>&nbsp;&nbsp;&nbsp;
     <a href="#">Send us feedback</a>&nbsp;&nbsp;&nbsp;
     <a href="#">Help</a>&nbsp;&nbsp;&nbsp;

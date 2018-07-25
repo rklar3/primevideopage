@@ -1,9 +1,10 @@
 
 import React, { Component } from 'react';
 
-//const urlformovie = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=88985b422d7e5666e517e6f7f09919dd&page=1';
-const urlformovie = 'https://api.themoviedb.org/3/genre/878/movies?sort_by=popularity.desc&&api_key=88985b422d7e5666e517e6f7f09919dd&page=2';
+const urlformovie = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=88985b422d7e5666e517e6f7f09919dd&with_genres=878&with_original_language=en&page=2';
 
+
+// 27 horror, sci-fi 878, comedy 35
 
 class RowFive extends React.Component {
 

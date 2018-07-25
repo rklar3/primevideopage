@@ -21,8 +21,8 @@ class App extends Component {
     return (
       <div className="App">       
         <Titles/> 
-        <div className="container">
         <Slider/> 
+        <div className="container">
         <RowOne/>
         <RowTwo/>
         <RowThree/>

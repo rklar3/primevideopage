@@ -1,8 +1,7 @@
 
 import React, { Component } from 'react';
 
-//const urlformovie = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=88985b422d7e5666e517e6f7f09919dd&page=1';
-const urlformovie = 'https://api.themoviedb.org/3/genre/35/movies?sort_by=popularity.desc&&api_key=88985b422d7e5666e517e6f7f09919dd&page=2';
+const urlformovie = 'https://api.themoviedb.org/3/discover/movie?api_key=88985b422d7e5666e517e6f7f09919dd&primary_release_date.gte=2017-11-19&primary_release_date.lte=2018-02-19&with_genres=28%7C35%7C878&&with_original_language=en&page=1';
 
 
 
@@ -38,7 +37,7 @@ class RowThree extends React.Component {
   render() {
     return (
       <div className="firstrowone">
-        <p> Top Comedy <a href="#">See more</a></p>
+        <p> New movies <a href="#">See more</a></p>
 
       <div className="wrapper">
         <div className="row">

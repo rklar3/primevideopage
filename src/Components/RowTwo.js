@@ -1,7 +1,6 @@
 
 import React, { Component } from 'react';
 
-//const urlformovie = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=88985b422d7e5666e517e6f7f09919dd&page=1&';
 const urlformovie = 'https://api.themoviedb.org/3/discover/tv?sort_by=popularity.desc&api_key=88985b422d7e5666e517e6f7f09919dd&page=1&';
 
 

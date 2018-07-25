@@ -1,8 +1,12 @@
 
 import React, { Component } from 'react';
 
-//const urlformovie = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=88985b422d7e5666e517e6f7f09919dd&page=1';
-const urlformovie = 'https://api.themoviedb.org/3/genre/27/movies?sort_by=popularity.desc&&api_key=88985b422d7e5666e517e6f7f09919dd&page=1';
+const urlformovie = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=88985b422d7e5666e517e6f7f09919dd&with_genres=27&with_original_language=en&page=1';
+
+
+
+
+
 
 
 class RowFour extends React.Component {
