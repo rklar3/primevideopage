@@ -1,0 +1,161 @@
+
+body{
+  background-color: #111;
+  font-family: "Amazon Ember",Arial,sans-serif;
+  font-weight: 400;
+
+}
+
+div{
+  margin: 0 auto;
+}
+
+/* header */
+
+.title{
+  background-image: linear-gradient(180deg,#222 0,rgba(34,34,34,.85));  
+  display: block;
+  color: #b1b1b1;
+  margin: 0 auto;
+  max-height: 4em;
+}
+
+#logo { 
+  float: left;
+  display: inline-block;
+  margin-left: 2em;
+  margin-top: 1.25em;
+  margin-bottom: .5em;
+  margin-right: 2em;
+  width: 125px;
+}
+
+.clear {
+  clear: both;
+}
+
+
+#nav {
+    color: white;
+    width: 100%;
+
+}
+.nav {
+  list-style: none;    /*gets rid of bullet points*/ 
+  text-align: left;
+  margin: 0;   
+  display: block;  
+}
+.nav > li {                                                             
+    display:Inline-block;
+    padding: 10px 9px 10px 9px;  
+    margin-top: 1em;
+}
+
+ .nav > li a {                                               
+     text-decoration: none;
+     color: #b1b1b1;
+     font-size: 14px;
+     padding: 5px 0px 5px 0px
+ }
+
+ .nav > li > a:hover {
+     color: white;
+ }
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.right{
+  float: right;
+}
+
+.logo-right{
+  width: 19px;
+  margin-right: 2em;
+  fill: #b1b1b1;
+}
+
+@media handheld and (max-width:768px),
+      screen and (max-width: 768px) {
+  .left{
+    visibility: hidden; 
+  }
+  .sliderimg{
+    margin: 0 auto;
+  }
+}
+
+/* slider */
+
+.sliderimg{
+  width: 100%;
+}
+
+/* rowone */
+.firstrowone {
+  color: white;
+}
+
+.firstrowone a{
+  color: #48a3c6;
+}
+
+.firstrowone a:hover{ 
+  color: white;
+}
+  
+.posterimg {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.posterimg:hover {
+    transform: scale(1.2); 
+}
+
+
+
+/* all rows */
+.column {
+  float: left;
+  width: 10em;
+  margin: 0 9px;
+  padding-bottom: 2em;
+  text-align: center;
+  margin-left: 0em;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.wrapper{
+  /*border: 1px solid red;*/
+  overflow: hidden;
+  height: 18em;
+}
+
+
+
+/** Footer **/
+
+.sitefooter{
+  padding-top: 5em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sitefooter a{
+  color: #48a3c6;
+}
+
+.sitefooter a:hover{
+  color: #0066c0;
+}
+
